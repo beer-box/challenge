@@ -100,6 +100,9 @@ h3 {
 p {
     background: white;
     padding: 1.5em;
+}
+
+p.break-all {
     word-break: break-all;
 }
 
