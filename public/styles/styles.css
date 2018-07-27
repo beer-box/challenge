@@ -63,15 +63,26 @@ body {
     background: #F0F0F0;
     color: #222222;
     font-family: 'pf_beausans_proregular', 'monospace';
+    margin: 0;
 }
 
 header {
     text-align: center;
 }
 
+section {
+    margin-left: 8px;
+    margin-right: 8px;   
+    display: none; 
+}
+
 img.logo {
     max-width: 200px;
     margin: 1.5em;
+}
+
+img.banner {
+    width: 100vw;
 }
 
 h1 {
@@ -108,4 +119,10 @@ p.break-all {
 
 p img {
     max-width: 100%;
+}
+
+#countdown {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
 }
